@@ -12,7 +12,7 @@ function init() {
         cells.push(propertyCell)
         board.appendChild(propertyCell)
       } else if (cell.type === 'station'){
-        const stationCell = 
+        // const stationCell = 
       }
     })
     console.log(cells)
