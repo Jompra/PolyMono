@@ -250,7 +250,7 @@ export const properties = {
     cost: 240,
     name: 'Trafalgar Square',
     type: 'property',
-    color: 'Orange',
+    color: 'Red',
     blankRent: 20,
     oneHouseRent: 100,
     twoHouseRent: 300,
