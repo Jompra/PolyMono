@@ -420,7 +420,7 @@ export const properties = {
 }
 
 export const stations = {
-  liverpoolStreet: {
+  liverpoolStreetStation: {
     cost: 200,
     name: 'Liverpool Street Station',
     rent: 25,
@@ -431,7 +431,7 @@ export const stations = {
     mortgaged: false,
     owner: ''
   },
-  fenchurchStreet: {
+  fenchurchStreetStation: {
     cost: 200,
     name: 'Fenchurch St Station',
     rent: 25,
@@ -442,7 +442,7 @@ export const stations = {
     mortgaged: false,
     owner: ''
   },
-  kingsCross: {
+  kingsCrossStation: {
     cost: 200,
     name: 'Kings Cross Station',
     rent: 25,
@@ -453,7 +453,7 @@ export const stations = {
     mortgaged: false,
     owner: ''
   },
-  marylebone: {
+  maryleboneStation: {
     cost: 200,
     name: 'Marylebone Station',
     rent: 25,
@@ -487,6 +487,40 @@ export const utilities = {
   }
 }
 
+export const taxes = {
+  incomeTax: {
+    name: 'Income Tax',
+    cost: 200
+  },
+  superTax: {
+    name: 'Super Tax',
+    cost: 100
+  }
+}
+
+export const corners = {
+  go: {
+    name: 'GO',
+    gain: 200,
+    cost: 0
+  },
+  parking: {
+    name: 'Free Parking',
+    gain: 0,
+    cost: 0
+  },
+  jail: {
+    name: 'Jail',
+    gain: 0,
+    cost: 0
+  },
+  goToJail: {
+    name: 'Go To jail',
+    gain: 0,
+    cost: 0
+  }
+}
+
 export const cellOrder = [
   { name: 'go', type: 'corner' },
   { name: 'oldKentRoad', type: 'property' },
@@ -503,7 +537,7 @@ export const cellOrder = [
   { name: 'electric', type: 'utility' },
   { name: 'whitehall', type: 'property' },
   { name: 'northumberlandAvenue', type: 'property' },
-  { name: 'marylebone', type: 'station' },
+  { name: 'maryleboneStation', type: 'station' },
   { name: 'bowStreet', type: 'property' },
   { name: 'comunityChest', type: 'card' },
   { name: 'marlboroughStreet', type: 'property' },
@@ -513,7 +547,7 @@ export const cellOrder = [
   { name: 'chance', type: 'card' },
   { name: 'fleetStreet', type: 'property' },
   { name: 'trafalgarSquare', type: 'property' },
-  { name: 'fenchurchStreet', type: 'station' },
+  { name: 'fenchurchStreetStation', type: 'station' },
   { name: 'leicesterSquare', type: 'property' },
   { name: 'coventryStreet', type: 'property' },
   { name: 'water', type: 'utility' },
@@ -523,7 +557,7 @@ export const cellOrder = [
   { name: 'oxfordStreet', type: 'property' },
   { name: 'comunityChest', type: 'card' },
   { name: 'bondStreet', type: 'property' },
-  { name: 'liverpoolStreet', type: 'station' },
+  { name: 'liverpoolStreetStation', type: 'station' },
   { name: 'chance', type: 'card' },
   { name: 'parkLane', type: 'property' },
   { name: 'superTax', type: 'tax' },
